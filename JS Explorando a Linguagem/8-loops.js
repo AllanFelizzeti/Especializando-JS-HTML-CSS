@@ -35,3 +35,9 @@ if (idadeComprador >= 18 || estaAcompanhada == true && temPassagemComprada == tr
 } else {
     console.log("Você não pode embarcar")
 }
+
+for(let cont = 0;cont < 3; cont++){
+    if (listaDeDestinos[cont] == distino){
+        destinoExiste = true
+    } 
+}
